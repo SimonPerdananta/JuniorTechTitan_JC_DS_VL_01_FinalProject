@@ -67,12 +67,16 @@ Sebagai tim Data Scientist, kita ditugaskan untuk membantu menganalisa dan memba
 
 Kesimpulan:
 1. Awards Won, Previous Year Rating dan Average Training Score adalah tiga feature yang paling mempengaruhi apakah seorang karyawan layak untuk mendapatkan promosi
-![image](https://user-images.githubusercontent.com/91617636/145953394-8e337372-9d9b-4dba-8d41-57e96e218153.png)
 
-2. Proses optimasi model dengan hyperparameter tuning dan resampling SMOTE ternyata tidak meningkatkan performa model awal/default secara signifikan
+2. Karyawan dengan Avg Training Score 90-100 memiliki peluang 76.83% untuk di promosikan, bahkan untuk Avg Training Score >95 memiliki peluang 100% atau pasti akan di promosikan
+
+3. Training yang diikuti kandidat promosi ternyata merupakan tahap evaluasi utama dalam proses seleksi promosi di perusahaan ini
+
+4. Model XGBoost mampu meminimalisir kesalahan promosi dalam hal mempromosikan karyawan yang sebenarnya tidak layak
 
 Rekomendasi:
-1. Mungkin dapat melakukan feature engineering kembali seperti mencoba membuat feature baru berdasarkan data yang ada atau merubah metode dalam melakukan encoding feature untuk membandingkan performa model yang akan diperoleh
+1. Menganalisa data anomali pada data history dan sebisa mungkin menghilangkan nya
+2. Menyempurnakan kembali model untuk memperhitungkan opportunity karyawan yang seharusnya layak untuk dipromosi
 
 ## References
 1. https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
