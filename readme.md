@@ -56,11 +56,14 @@ Sebagai tim Data Scientist, kita ditugaskan untuk membantu menganalisa dan memba
 - Karyawan dengan proses perekrutan berdasarkan referensi memiliki kesempatan di promosikan sedikit lebih tinggi dibandingkan dengan karyawan yang berasal dari outsorcing atau yang lainnya.
 
 ## Conlusion and Recommendation
-| No |	Method	| Recall	| Precision	| f1_score	| Accuracy |
-| -- | ------ | ----------- | ------ | ------ | ------ |
-| 0	| XGBoost |	0.404711 | 0.659686	| 0.501659	| 0.931491 |
-| 1	| GridSeacrhCV	| 0.346895	| 0.912676	| 0.502715	| 0.941525 |
-| 2	| GridSearchCV_SMOTE	| 0.346895	| 0.912676	| 0.502715	| 0.941525 |
+| No |	Model	| Accuracy | Recall	| Precision	| F1_score	| F1 Std |
+| -- | ------ | ----------- | ------ | ------ | ------ | ------ |
+| 0	| Decision Tree	| 0.881449	| 0.409751	| 0.338396	| 0.370605	| 0.009424 |
+| 1	| Random Forest	| 0.929845	| 0.240493	| 0.791578	| 0.368517	| 0.013660 |
+| 2	| XGBoost	| 0.941363	| 0.348156	| 0.904997	| 0.502788	| 0.012243 |
+| 3	| Logistic Regression	| 0.918944	| 0.093468	| 0.676574	| 0.164108	| 0.014139 |
+| 4	| SVM	| 0.914838	| 0.000000	| 0.000000	| 0.000000	| 0.000000 |
+| 5	| KNN	| 0.923277	| 0.108999	| 0.916904	| 0.194757	| 0.011080 |
 
 Kesimpulan:
 1. Model terbaik yang kita peroleh adalah model classifier XGBoost
