@@ -67,11 +67,8 @@ Sebagai tim Data Scientist, kita ditugaskan untuk membantu menganalisa dan memba
 
 Kesimpulan:
 1. Awards Won, Previous Year Rating dan Average Training Score adalah tiga feature yang paling mempengaruhi apakah seorang karyawan layak untuk mendapatkan promosi
-
 2. Karyawan dengan Avg Training Score 90-100 memiliki peluang 76.83% untuk di promosikan, bahkan untuk Avg Training Score >95 memiliki peluang 100% atau pasti akan di promosikan
-
 3. Training yang diikuti kandidat promosi ternyata merupakan tahap evaluasi utama dalam proses seleksi promosi di perusahaan ini
-
 4. Model XGBoost mampu meminimalisir kesalahan promosi dalam hal mempromosikan karyawan yang sebenarnya tidak layak
 
 Rekomendasi:
