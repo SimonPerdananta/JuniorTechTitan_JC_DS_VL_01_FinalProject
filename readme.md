@@ -66,7 +66,9 @@ Sebagai tim Data Scientist, kita ditugaskan untuk membantu menganalisa dan memba
 | 5	| KNN	| 0.923277	| 0.108999	| 0.916904	| 0.194757	| 0.011080 |
 
 Kesimpulan:
-1. Model terbaik yang kita peroleh adalah model classifier XGBoost
+1. Awards Won, Previous Year Rating dan Average Training Score adalah tiga feature yang paling mempengaruhi apakah seorang karyawan layak untuk mendapatkan promosi
+![image](https://user-images.githubusercontent.com/91617636/145953394-8e337372-9d9b-4dba-8d41-57e96e218153.png)
+
 2. Proses optimasi model dengan hyperparameter tuning dan resampling SMOTE ternyata tidak meningkatkan performa model awal/default secara signifikan
 
 Rekomendasi:
