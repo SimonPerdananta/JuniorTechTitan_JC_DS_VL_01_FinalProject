@@ -13,12 +13,12 @@ Sebagai tim Data Scientist, kita ditugaskan untuk membantu menganalisa dan memba
 </p>
 
 ## Problems
-1. Perusahaan membutuhkan bantuan agar proses evaluasi untuk menentukan karyawan mana yang layak promosi menjadi lebih cepat
-1. Bagaimana menciptakan sistem klasifikasi yang akurat terhadap karyawan untuk menentukan mana karyawan layak promosi dan tidak
+1. Tim HR memerlukan bantuan untuk menentukan karyawan yang layak untuk mendapat promosi secara efisien
+1. Pemberian promosi bagi karyawan yang tidak tepat akan merugikan operasional cost perusahaan, dan menimbulkan kesenjangan di lingkungan kerja
 
 ## Goals
-1. Membuat model Machine Learning untuk membantu pemilihan karyawan yang layak promosi secara efisien
-1. Membuat model klasifikasi yang akurat untuk mencegah kerugian perusahaan dari sisi operational cost
+1. Membuat model Machine Learning yang dapat membantu mengklasifikasi karyawan yang layak promosi secara efisien dan akurat
+1. Membuat model klasifikasi yang akurat untuk mencegah kerugian perusahaan dari sisi operational cost, dan mencari fitur-fitur yang menjadi faktor penilaian utama dalam mengidentifikasi kandidat karyawan yang layak untuk mendapat promosi
 
 ## Dataset 
 **Dataset:** HR Analytics: Employee Promotion Data | **Source:** [Kaggle](https://www.kaggle.com/arashnic/hr-ana)
